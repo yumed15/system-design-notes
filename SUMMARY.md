@@ -1,6 +1,6 @@
 # Table of contents
 
-* [🖌 Intro](README.md)
+* [🖌 Welcome](README.md)
 
 ## BASICS
 
@@ -15,4 +15,10 @@
 
 ## SYSTEM DESIGN EXAMPLES
 
-* [Untitled](system-design-examples/untitled.md)
+* [TBA](system-design-examples/tba.md)
+
+## Monolith Decomposition Patterns
+
+* [Motivation](monolith-decomposition-patterns/motivation.md)
+* [The Strangler Fig Migration Pattern](monolith-decomposition-patterns/the-strangler-fig-migration-pattern.md)
+* [Other Approaches](monolith-decomposition-patterns/other-approaches.md)
