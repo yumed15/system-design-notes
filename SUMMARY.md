@@ -1,6 +1,6 @@
 # Table of contents
 
-* [🖌 Welcome](README.md)
+* [📚 Welcome](README.md)
 
 ## BASICS
 
@@ -15,7 +15,7 @@
 
 ## SYSTEM DESIGN EXAMPLES
 
-* [TBA](system-design-examples/tba.md)
+* [TBA](system-design-examples/untitled.md)
 
 ## Monolith Decomposition Patterns
 
