@@ -4,7 +4,9 @@
 
 ## BASICS
 
-* [Untitled](basics/untitled.md)
+* [Key Characteristics of Distributed Systems](basics/key-characteristics-of-distributed-systems.md)
+* [Load Balancer](basics/load-balancer.md)
+* [Caching](basics/caching.md)
 
 ## SYSTEM DESIGN EXAMPLES
 
