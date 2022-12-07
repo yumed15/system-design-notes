@@ -22,3 +22,20 @@
 * [Motivation](monolith-decomposition-patterns/motivation.md)
 * [The Strangler Fig Migration Pattern](monolith-decomposition-patterns/the-strangler-fig-migration-pattern.md)
 * [Other Approaches](monolith-decomposition-patterns/other-approaches.md)
+
+## System Design patterns
+
+* [Bloom filters](system-design-patterns/bloom-filters.md)
+* [Consistent hashing](system-design-patterns/consistent-hashing.md)
+* [Quorum](system-design-patterns/quorum.md)
+* [Checksum](system-design-patterns/checksum.md)
+* [Merkle trees](system-design-patterns/merkle-trees.md)
+* [Leader election](system-design-patterns/leader-election.md)
+
+## DISTRIBUTED SYSTEM DESIGN PATTERNS
+
+* [CQRS](distributed-system-design-patterns/cqrs.md)
+* [Two-Phase Commit](distributed-system-design-patterns/two-phase-commit.md)
+* [Saga](distributed-system-design-patterns/saga.md)
+* [Transactional outbox](distributed-system-design-patterns/transactional-outbox.md)
+* [Transaction log tailing](distributed-system-design-patterns/transaction-log-tailing.md)
