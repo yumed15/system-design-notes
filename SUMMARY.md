@@ -27,7 +27,7 @@
 
 * [Bloom filters](system-design-patterns/bloom-filters.md)
 * [Consistent hashing](system-design-patterns/consistent-hashing.md)
-* [Quorum](system-design-patterns/quorum.md)
+* [Quorum/Consensus](system-design-patterns/quorum-consensus.md)
 * [Checksum](system-design-patterns/checksum.md)
 * [Merkle trees](system-design-patterns/merkle-trees.md)
 * [Leader election](system-design-patterns/leader-election.md)
