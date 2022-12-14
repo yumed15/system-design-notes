@@ -32,6 +32,8 @@
 * [Write-ahead Log](system-design-patterns/write-ahead-log.md)
 * [Segmented Log](system-design-patterns/segmented-log.md)
 * [High-Water Mark](system-design-patterns/high-water-mark.md)
+* [Locking Lease](system-design-patterns/locking-lease.md)
+* [Heartbeat](system-design-patterns/heartbeat.md)
 * [Checksum](system-design-patterns/checksum.md)
 * [Merkle trees](system-design-patterns/merkle-trees.md)
 * [Leader election](system-design-patterns/leader-election.md)
