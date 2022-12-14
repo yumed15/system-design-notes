@@ -34,6 +34,7 @@
 * [High-Water Mark](system-design-patterns/high-water-mark.md)
 * [Locking Lease](system-design-patterns/locking-lease.md)
 * [Heartbeat](system-design-patterns/heartbeat.md)
+* [Gossip Protocol](system-design-patterns/gossip-protocol.md)
 * [Checksum](system-design-patterns/checksum.md)
 * [Merkle trees](system-design-patterns/merkle-trees.md)
 * [Leader election](system-design-patterns/leader-election.md)
