@@ -36,6 +36,7 @@
 * [Heartbeat](system-design-patterns/heartbeat.md)
 * [Gossip Protocol](system-design-patterns/gossip-protocol.md)
 * [Phi Accrual Failure Detection](system-design-patterns/phi-accrual-failure-detection.md)
+* [Split Brain](system-design-patterns/split-brain.md)
 * [Checksum](system-design-patterns/checksum.md)
 * [Merkle trees](system-design-patterns/merkle-trees.md)
 * [Leader election](system-design-patterns/leader-election.md)
