@@ -1,4 +1,4 @@
-# Split Brain
+# Split Brain with Generation Clock
 
 ### Motivation
 
@@ -14,6 +14,8 @@ Solved through the use of <mark style="background-color:yellow;">**Generation Cl
 * the generation number is included in every request that is sent from the leader to other nodes.
 * nodes can now easily differentiate the real leader by simply trusting the leader with the highest number.
 * the generation number should be persisted on disk, so that it remains available after a server reboot. (e.g. be written with every request in the WAL)
+
+<figure><img src="../.gitbook/assets/Diana Playground (10).jpg" alt=""><figcaption></figcaption></figure>
 
 ### Applications
 
