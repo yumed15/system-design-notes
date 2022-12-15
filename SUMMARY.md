@@ -41,6 +41,7 @@
 * [Split Brain with Fencing](system-design-patterns/split-brain-with-fencing.md)
 * [Checksum](system-design-patterns/checksum.md)
 * [Vector Clocks](system-design-patterns/vector-clocks.md)
+* [Hinted Handoff](system-design-patterns/hinted-handoff.md)
 * [Merkle trees](system-design-patterns/merkle-trees.md)
 * [Leader election](system-design-patterns/leader-election.md)
 
