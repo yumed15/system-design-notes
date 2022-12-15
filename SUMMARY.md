@@ -47,8 +47,8 @@
 
 ## DISTRIBUTED DATA DESIGN PATTERNS
 
-* [CQRS](distributed-data-design-patterns/cqrs.md)
-* [Two-Phase Commit](distributed-data-design-patterns/two-phase-commit.md)
+* [Two-phase commit (2pc) Pattern](distributed-data-design-patterns/cqrs.md)
+* [CQRS](distributed-data-design-patterns/two-phase-commit.md)
 * [Saga](distributed-data-design-patterns/saga.md)
 * [Transactional outbox](distributed-data-design-patterns/transactional-outbox.md)
 * [Transaction log tailing](distributed-data-design-patterns/transaction-log-tailing.md)

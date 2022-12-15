@@ -11,7 +11,7 @@ layout: landing
 ## Table of contents
 
 {% tabs %}
-{% tab title="Basic concepts" %}
+{% tab title="Basic Concepts" %}
 | System components                                       | System concepts                                       |
 | ------------------------------------------------------- | ----------------------------------------------------- |
 | [load-balancer.md](basics/load-balancer.md "mention")   | [acid.md](basics/acid.md "mention")                   |
@@ -36,5 +36,13 @@ layout: landing
 | Update dead nodes with missed data | [hinted-handoff.md](system-design-patterns/hinted-handoff.md "mention")                                                                                                                                                                                                                              |
 | Update stale nodes                 | <p><a data-mention href="system-design-patterns/read-repair.md">read-repair.md</a><br><a data-mention href="system-design-patterns/merkle-trees.md">merkle-trees.md</a></p>                                                                                                                          |
 | Check data inconsistency           | [checksum.md](system-design-patterns/checksum.md "mention")                                                                                                                                                                                                                                          |
+{% endtab %}
+
+{% tab title="Distributed Data Transactions" %}
+|                                    |                                                                                       |
+| ---------------------------------- | ------------------------------------------------------------------------------------- |
+| Commit or rollback transaction     | [cqrs.md](distributed-data-design-patterns/cqrs.md "mention")                         |
+| Retrieve data from multiple places | [two-phase-commit.md](distributed-data-design-patterns/two-phase-commit.md "mention") |
+|                                    |                                                                                       |
 {% endtab %}
 {% endtabs %}
