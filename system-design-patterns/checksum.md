@@ -14,4 +14,4 @@ When a system is storing some data, it computes a checksum of the data, and stor
   \
   $$e.g. hexmd5( md5( part1 ) + md5( part2 ) )-{  no.parts }$$\
   \
-  The validation function will calculate the ETag of the file the same way as aws's algorithm and compare it with the ETag of the file once uploaded
+  The validation function will calculate the ETag of the file the same way as aws's algorithm and compare it with the ETag of the file once uploaded.

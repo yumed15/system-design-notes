@@ -12,6 +12,7 @@
 * [Databases](basics/databases.md)
 * [ACID](basics/acid.md)
 * [CAP Theorem](basics/cap-theorem.md)
+* [PACEL Theorem](basics/pacel-theorem.md)
 
 ## SYSTEM DESIGN EXAMPLES
 
@@ -39,13 +40,14 @@
 * [Split Brain with Generation Clock](system-design-patterns/split-brain-with-generation-clock.md)
 * [Split Brain with Fencing](system-design-patterns/split-brain-with-fencing.md)
 * [Checksum](system-design-patterns/checksum.md)
+* [Vector Clocks](system-design-patterns/vector-clocks.md)
 * [Merkle trees](system-design-patterns/merkle-trees.md)
 * [Leader election](system-design-patterns/leader-election.md)
 
-## DISTRIBUTED SYSTEM DESIGN PATTERNS
+## DISTRIBUTED DATA DESIGN PATTERNS
 
-* [CQRS](distributed-system-design-patterns/cqrs.md)
-* [Two-Phase Commit](distributed-system-design-patterns/two-phase-commit.md)
-* [Saga](distributed-system-design-patterns/saga.md)
-* [Transactional outbox](distributed-system-design-patterns/transactional-outbox.md)
-* [Transaction log tailing](distributed-system-design-patterns/transaction-log-tailing.md)
+* [CQRS](distributed-data-design-patterns/cqrs.md)
+* [Two-Phase Commit](distributed-data-design-patterns/two-phase-commit.md)
+* [Saga](distributed-data-design-patterns/saga.md)
+* [Transactional outbox](distributed-data-design-patterns/transactional-outbox.md)
+* [Transaction log tailing](distributed-data-design-patterns/transaction-log-tailing.md)
