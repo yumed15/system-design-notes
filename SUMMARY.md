@@ -44,7 +44,6 @@
 * [Hinted Handoff](system-design-patterns/hinted-handoff.md)
 * [Read Repair](system-design-patterns/read-repair.md)
 * [Merkle trees](system-design-patterns/merkle-trees.md)
-* [Leader election](system-design-patterns/leader-election.md)
 
 ## DISTRIBUTED DATA DESIGN PATTERNS
 
