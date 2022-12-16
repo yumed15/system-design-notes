@@ -5,6 +5,7 @@
 ## BASICS
 
 * [Key Characteristics of Distributed Systems](basics/key-characteristics-of-distributed-systems.md)
+* [DNS](basics/dns.md)
 * [Load Balancer](basics/load-balancer.md)
 * [Caching](basics/caching.md)
 * [Message Queues](basics/message-queues.md)
@@ -20,8 +21,10 @@
 
 ## Monolith Decomposition Patterns
 
+* [Monolith vs Microservices](monolith-decomposition-patterns/monolith-vs-microservices.md)
 * [Motivation](monolith-decomposition-patterns/motivation.md)
 * [The Strangler Fig Migration Pattern](monolith-decomposition-patterns/the-strangler-fig-migration-pattern.md)
+* [Domain-Driven Design](monolith-decomposition-patterns/domain-driven-design.md)
 * [Other Approaches](monolith-decomposition-patterns/other-approaches.md)
 
 ## System Design patterns

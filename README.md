@@ -12,13 +12,15 @@ layout: landing
 
 {% tabs %}
 {% tab title="Basic Concepts" %}
-| System components                                       | System concepts                                       |
-| ------------------------------------------------------- | ----------------------------------------------------- |
-| [load-balancer.md](basics/load-balancer.md "mention")   | [acid.md](basics/acid.md "mention")                   |
-| [caching.md](basics/caching.md "mention")               | [cap-theorem.md](basics/cap-theorem.md "mention")     |
-| [message-queues.md](basics/message-queues.md "mention") | [pacel-theorem.md](basics/pacel-theorem.md "mention") |
-| [proxies.md](basics/proxies.md "mention")               |                                                       |
-| [databases.md](basics/databases.md "mention")           |                                                       |
+| System components                                                                                      | System concepts                                       |
+| ------------------------------------------------------------------------------------------------------ | ----------------------------------------------------- |
+| [load-balancer.md](basics/load-balancer.md "mention")                                                  | [acid.md](basics/acid.md "mention")                   |
+| [caching.md](basics/caching.md "mention")                                                              | [cap-theorem.md](basics/cap-theorem.md "mention")     |
+| [message-queues.md](basics/message-queues.md "mention")                                                | [pacel-theorem.md](basics/pacel-theorem.md "mention") |
+| [proxies.md](basics/proxies.md "mention")                                                              |                                                       |
+| [databases.md](basics/databases.md "mention")                                                          |                                                       |
+| [dns.md](basics/dns.md "mention")                                                                      |                                                       |
+| [monolith-vs-microservices.md](monolith-decomposition-patterns/monolith-vs-microservices.md "mention") |                                                       |
 {% endtab %}
 
 {% tab title="Design Patterns" %}
@@ -44,5 +46,13 @@ layout: landing
 | Commit or rollback transaction     | [cqrs.md](distributed-data-design-patterns/cqrs.md "mention")                         |
 | Retrieve data from multiple places | [two-phase-commit.md](distributed-data-design-patterns/two-phase-commit.md "mention") |
 |                                    |                                                                                       |
+{% endtab %}
+
+{% tab title="Splitting the monolith" %}
+| Chapters                                                                                                                   |
+| -------------------------------------------------------------------------------------------------------------------------- |
+| [domain-driven-design.md](monolith-decomposition-patterns/domain-driven-design.md "mention")                               |
+| [the-strangler-fig-migration-pattern.md](monolith-decomposition-patterns/the-strangler-fig-migration-pattern.md "mention") |
+|                                                                                                                            |
 {% endtab %}
 {% endtabs %}
