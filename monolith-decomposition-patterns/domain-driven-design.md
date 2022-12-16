@@ -87,11 +87,42 @@ The purpose of the model-driven design patterns is to present some of the key el
 
 **Context Map** = document which outlines the different Bounded Contexts and the relationships between them.
 
-**Shared Kernel** = overlapping services
+### **The Customer-Supplier Pattern**&#x20;
 
-**Customer-Supplier** = relationship between 2 subsystems when one depends on the other.
+\= relationship between 2 subsystems when one depends on the other.
 
 * they do not have a Shared Kernel, because it may not be conceptually correct to have one, or it may not even be technically possible for the two subsystems to share common code.
+* the **supplier is upstream** and the **customer is downstream**. However, the customer can factor their priorities into the planning of the upstream project.
+* e.g. payment uses the model of the order process. However, payment defines requirements for the order process. Payment can only be done successfully if the order process provides the required data. So, payment can become a customer of the order process. That way the customer’s requirements can be included in the planning of the order process.
+
+<img src="../.gitbook/assets/file.drawing (1).svg" alt="" class="gitbook-drawing">
+
+### The Conformist Pattern
+
+\= a bounded context simply uses a domain model from another bounded context
+
+* e.g. the bounded contexts, **statistics**, and **order process**, both **use the same domain model**. The statistics are part of a data warehouse. They use the domain model of the order process bounded context and extract some information relevant to store in the data warehouse.
+* with the _conformist_ pattern, the data warehouse team **does not have a say** in case of changes to the bounded context. The data warehouse team could not demand additional information from the other bounded context.
+
+<img src="../.gitbook/assets/file.drawing (2).svg" alt="" class="gitbook-drawing">
+
+### The Anti-Corruption Layer (ACL) Pattern
+
+* the bounded context does not directly use the domain model of the other bounded context, but it contains a layer for decoupling its own domain model from the model of the bounded context.
+* useful in conjunction with the _conformist_ pattern to generate a separate model decoupled from the other model.
+* e.g. the bounded context _shipping_ uses an ACL at the interface to the bounded context _legacy_ so that both bounded contexts have their own independent domain models. This ensures that the model in the legacy system does not affect the bounded context _shipping_. _Shipping_ can implement a clean model in its bounded context
+
+<img src="../.gitbook/assets/file.drawing (3).svg" alt="" class="gitbook-drawing">
+
+### The Separate Ways Pattern
+
+### The Shared Kernel Pattern
+
+### The Open Host Service Pattern
+
+### The Published Language Model Pattern
+
+__
 
 _(TO DO...)_
 
