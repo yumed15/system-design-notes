@@ -12,6 +12,12 @@ Nodes periodically exchange state information about themselves and about other n
 
 <figure><img src="../.gitbook/assets/Diana Playground (9).jpg" alt=""><figcaption></figcaption></figure>
 
+Gossip protocol is based on how epidemics spread. It starts from one random node and fans out to several other nodes. Eventually all nodes are “infected”. The animation below shows how the Gossip Protocol works in a cluster of servers.
+
+<figure><img src="../.gitbook/assets/Untitled_2.gif" alt=""><figcaption><p>Courtesy of <a href="https://flopezluis.github.io/gossip-simulator/">https://flopezluis.github.io/gossip-simulator/</a></p></figcaption></figure>
+
 ### Applications
 
 **Dynamo & Cassandra** use gossip protocol which allows each node to keep track of state information about the other nodes in the cluster, like which nodes are reachable, what key ranges they are responsible for, etc.
+
+**Ethereum**, **Cassandra** and **Redis** all use Gossip for P2P (Peer-to-Peer) communication.

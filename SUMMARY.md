@@ -1,6 +1,6 @@
 # Table of contents
 
-* [📚 Welcome](README.md)
+* [Table of contents](README.md)
 
 ## BASICS
 
