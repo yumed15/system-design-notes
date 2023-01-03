@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Table of contents](README.md)
+* [Welcome](README.md)
 
 ## BASICS
 
