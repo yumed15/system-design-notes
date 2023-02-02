@@ -19,8 +19,6 @@ Message queues&#x20;
 
 Event streaming platform - Kafka, Pulsar
 
-###
-
 ### Problem&#x20;
 
 Functional requirements:
@@ -36,8 +34,6 @@ Non functional requirements:
 * high throughput, low-latency, configurable based on use case
 * scalable
 * persistent and durable
-
-###
 
 ### Solution
 
@@ -74,8 +70,6 @@ Consumer pull model flow:
 4. Consumer processes messages and commits the offset to the broker.
 
 <figure><img src="../.gitbook/assets/Microservice Communication.jpeg" alt=""><figcaption><p>Distributed Message Queue Design</p></figcaption></figure>
-
-
 
 ### How Kafka producers work
 
