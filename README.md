@@ -47,4 +47,8 @@
 | [Domain Driven Design](monolith-decomposition-patterns/domain-driven-design.md)                               |
 | [The Strangler Fig Migration Pattern](monolith-decomposition-patterns/the-strangler-fig-migration-pattern.md) |
 {% endtab %}
+
+{% tab title="Use Cases" %}
+[Distributed Message Queue & Event Streaming Platform](system-design-examples/untitled.md)
+{% endtab %}
 {% endtabs %}

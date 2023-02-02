@@ -92,7 +92,7 @@ Kafka does a lot of things under the hood when the `send()` method is invoked, s
 8. If a failure occurred without receiving an ACK, we check if message retry is enabled; if so, we need to resend it.
 9. The client receives the response.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 ### How Kafka consumers work
 
@@ -101,7 +101,7 @@ Kafka uses a pull-based model for data fetching. At the “heart of the consumer
 1. It is responsible for fetching data (providing **ConsumerRecords**) for the consumer to process and
 2. Sends heartbeats and coordinates the consumers so the consumer group knows the available consumers and if a rebalancing needs to take place.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ### Resources:
 
