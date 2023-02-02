@@ -17,7 +17,7 @@
 
 ## SYSTEM DESIGN EXAMPLES
 
-* [TBA](system-design-examples/untitled.md)
+* [Design a Distributed Message Queue & Event Streaming Platform](system-design-examples/untitled.md)
 
 ## Monolith Decomposition Patterns
 
