@@ -55,3 +55,8 @@
 * [Saga](distributed-data-design-patterns/saga.md)
 * [Transactional outbox](distributed-data-design-patterns/transactional-outbox.md)
 * [Transaction log tailing](distributed-data-design-patterns/transaction-log-tailing.md)
+
+## 💰 Payments Services
+
+* [Parties: Acquirer, Issuer](payments-services/parties-acquirer-issuer.md)
+* [Events: Chargebacks, Reversals](payments-services/events-chargebacks-reversals.md)
