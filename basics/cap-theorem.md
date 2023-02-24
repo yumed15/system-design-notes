@@ -1,11 +1,18 @@
 # CAP Theorem
 
-_impossible for a distributed software system to simultaneously provide more than two out of three of the following guarantees (CAP): Consistency, Availability, and Partition tolerance_
+_impossible for a distributed software system to simultaneously provide more than two out of three of the following guarantees (CAP): **Strong** Consistency, Availability, and Partition tolerance_
 
-* **Consistency**: All nodes see the same data at the same time. Consistency is achieved by updating several nodes before allowing further reads.
-* **Availability**: Every request gets a response on success/failure. Availability is achieved by replicating the data across different servers.
-* **Partition tolerance:** The system continues to work despite message loss or partial failure. Means that the cluster continues to function even if there is a “partition” (communication break) between two nodes (both nodes are up, but can’t communicate).\
+* **Strong Consistency** (aka _**Linearisable Consistency**_): All nodes see the same data at the same time. Strong consistency is achieved by updating several nodes before allowing further reads.
+* **Availability**: A system is available if every request received by a _non-failing node_ in the system results in a response.
+* **Partition tolerance:** The system continues to work despite message loss or partial failure. Means that the cluster continues to function even if there is a “partition” (communication break) between two nodes (both nodes are up, but can’t communicate) e.g. the ability of a data processing system to continue processing data even if a network partition causes communication errors between subsystems
 
+{% hint style="warning" %}
+Partition tolerance != Fault tolerance\
+\
+Partition Tolerance: A system is partition-tolerant with respect to X if {condition for X} still holds when the set of nodes are split into any number of disjoint subsets that cannot communicate with any elements outside that subset.\
+\
+Fault Tolerance: A system is fault-tolerant with respect to X up to F failures if {condition for X} still holds when any of F nodes fail.
+{% endhint %}
 
 <figure><img src="../.gitbook/assets/14.webp" alt=""><figcaption></figcaption></figure>
 

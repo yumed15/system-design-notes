@@ -1,6 +1,6 @@
 # PACEL Theorem
 
-The PACELC theorem states that in a system that replicates data:
+The PACEL theorem states that in a system that replicates data:
 
 * if there is a partition (‘P’), a distributed system can tradeoff between availability and consistency (i.e., ‘A’ and ‘C’);
 * else (‘E’), when the system is running normally in the absence of partitions, the system can tradeoff between latency (‘L’) and consistency (‘C’).
