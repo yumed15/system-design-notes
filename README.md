@@ -2,10 +2,10 @@
 
 📚 This is an attempt at documenting all my system design notes from reading and on hands experience, starting with explaining the basic components of a service to providing examples of real world problems and how they're currently implemented.
 
-### Table of contents
+## Table of contents
 
-{% tabs %}
-{% tab title="Basic Concepts" %}
+#### Basic Concepts
+
 | System components                                                                         | System concepts                          |
 | ----------------------------------------------------------------------------------------- | ---------------------------------------- |
 | [Load Balancer](basics/load-balancer.md)                                                  | [ACID](basics/acid.md)                   |
@@ -15,9 +15,9 @@
 | [Databases](basics/databases.md)                                                          |                                          |
 | [DNS](basics/dns.md)                                                                      |                                          |
 | [Monolith vs Microservices](monolith-decomposition-patterns/monolith-vs-microservices.md) |                                          |
-{% endtab %}
 
-{% tab title="Design Patterns" %}
+#### Design Patterns
+
 | Problem                            | Solution                                                                                                                                                                                                                                             |
 | ---------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Check set contains                 | [Bloom Filters](system-design-patterns/bloom-filters.md)                                                                                                                                                                                             |
@@ -32,23 +32,30 @@
 | Update dead nodes with missed data | [Hinted Handoff](system-design-patterns/hinted-handoff.md)                                                                                                                                                                                           |
 | Update stale nodes                 | <p><a href="system-design-patterns/read-repair.md">Read Repair</a><br><a href="system-design-patterns/merkle-trees.md">Merkle Trees</a></p>                                                                                                          |
 | Check data inconsistency           | [Checksum](system-design-patterns/checksum.md)                                                                                                                                                                                                       |
-{% endtab %}
 
-{% tab title="Distributed Data Transactions" %}
-|                                    |                                                              |
+#### Distributed Data Transactions
+
+| Problem                            | Solution                                                     |
 | ---------------------------------- | ------------------------------------------------------------ |
 | Commit or rollback transaction     | [CQRS](distributed-data-design-patterns/two-phase-commit.md) |
 | Retrieve data from multiple places | [Two Phase Commit](distributed-data-design-patterns/cqrs.md) |
-{% endtab %}
 
-{% tab title="Splitting the monolith" %}
+#### Splitting the monolith
+
 | Chapters                                                                                                      |
 | ------------------------------------------------------------------------------------------------------------- |
 | [Domain Driven Design](monolith-decomposition-patterns/domain-driven-design.md)                               |
 | [The Strangler Fig Migration Pattern](monolith-decomposition-patterns/the-strangler-fig-migration-pattern.md) |
-{% endtab %}
 
-{% tab title="Use Cases" %}
-[Distributed Message Queue & Event Streaming Platform](system-design-examples/untitled.md)
-{% endtab %}
-{% endtabs %}
+#### Use cases
+
+| Chapters                                                                                   |
+| ------------------------------------------------------------------------------------------ |
+| [Distributed Message Queue & Event Streaming Platform](system-design-examples/untitled.md) |
+
+#### Payments Domain
+
+| Chapters                                                                            |
+| ----------------------------------------------------------------------------------- |
+| [Parties: Acquirer, Issuer](payments-services/parties-acquirer-issuer.md)           |
+| [Events: Chargebacks, Reversals](payments-services/events-chargebacks-reversals.md) |
