@@ -53,6 +53,12 @@
 | ------------------------------------------------------------------------------------------ |
 | [Distributed Message Queue & Event Streaming Platform](system-design-examples/untitled.md) |
 
+**Infrastructure Bits and Bobs**
+
+| Chapters                                                                                                   |
+| ---------------------------------------------------------------------------------------------------------- |
+| [K8S - ClusterIP vs NodePort vs LoadBalancer](infrastructure/k8s-clusterip-vs-nodeport-vs-loadbalancer.md) |
+
 #### Payments Domain
 
 | Chapters                                                                            |
