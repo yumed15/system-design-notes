@@ -12,7 +12,7 @@ We could build an index on each data file and store it in a separate index file.
 
 A Bloom filter is a **probabilistic** **data structure** based on **hashing** designed to tell you, **rapidly** and **memory-efficiently**, **whether an element is present in a set.** Elements are not added to the set but their hash is.
 
-The price paid for this efficiency is that a Bloom filter is a **probabilistic data structure**: it tells us that the element either _**definitely is not**_** ** in the set or _**may be**_** ** in the set, thus **false positives** are possible.
+The price paid for this efficiency is that a Bloom filter is a **probabilistic data structure**: it tells us that the element either _**definitely is not**_ in the set or _**may be**_ in the set, thus **false positives** are possible.
 
 **How does it work?**
 
@@ -29,7 +29,7 @@ The price paid for this efficiency is that a Bloom filter is a **probabilistic d
 The hash functions used in a Bloom filter should be [**independent**](http://en.wiktionary.org/wiki/independent\_function) and [**uniformly distributed**](http://en.wikipedia.org/wiki/Uniform\_distribution\_\(discrete\)). Some examples of independent enough include [murmur](https://sites.google.com/site/murmurhash/), [xxHash](https://github.com/Cyan4973/xxHash), the [fnv](http://isthe.com/chongo/tech/comp/fnv/) series of hashes, and [HashMix](https://web.archive.org/web/20061030103559/http://www.concentric.net/\~Ttwang/tech/inthash.htm).\
 The more hash functions you have, the slower your bloom filter, and the quicker it fills up. If you have too few, however, you may suffer too many false positives.
 
-****
+
 
 **Choosing the length of a Bloom filter**
 

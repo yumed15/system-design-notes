@@ -7,7 +7,7 @@ The PACEL theorem states that in a system that replicates data:
 
 <figure><img src="../.gitbook/assets/Diana Playground (11).jpg" alt=""><figcaption></figcaption></figure>
 
-**PA/EL** systems - **Dynamo and Cassandra** - **** They choose availability over consistency when a partition occurs; otherwise, they choose lower latency.
+**PA/EL** systems - **Dynamo and Cassandra** - They choose availability over consistency when a partition occurs; otherwise, they choose lower latency.
 
 **PC/EC** systems - **BigTable and HBase** - They will always choose consistency, giving up availability and lower latency.
 

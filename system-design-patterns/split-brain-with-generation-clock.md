@@ -4,7 +4,7 @@
 
 Existence of <mark style="background-color:yellow;">**zombie leaders**</mark> (leader node that had been deemed dead by the system and has since come back online). Another node has taken its place, but the zombie leader might not know that yet and now the system now has two active leaders that could be issuing conflicting commands.
 
-<mark style="background-color:yellow;">**Split Brain**</mark>** ** = scenario in which a distributed system has two or more active leaders
+<mark style="background-color:yellow;">**Split Brain**</mark> = scenario in which a distributed system has two or more active leaders
 
 ### Solution
 

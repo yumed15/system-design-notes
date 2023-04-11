@@ -40,7 +40,7 @@ The strangler fig pattern allows you to move functionality over to your new serv
 
 The pattern involves 4 steps:
 
-* **Identify** -> **** identify parts of the existing system that you wish to migrate. (use Domain Driven Design to identify the various bounded contexts)
+* **Identify** -> identify parts of the existing system that you wish to migrate. (use Domain Driven Design to identify the various bounded contexts)
 * **Transform** -> implement this functionality in your new microservice.
 * **Co-exist** -> leave the existing module in the legacy application as-is. Incrementally reroute calls from the monolith over to the new microservice.
 * **Eliminate** -> once the traffic is completely redirected to the microservice, eliminate the legacy module.

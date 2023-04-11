@@ -8,7 +8,7 @@ Repairing stale data for nodes that were down and now are back online but the no
 
 Naively splitting up the entire range to calculate checksums for comparison, is not very feasible.
 
-We can use ** **<mark style="background-color:yellow;">**merkle trees**</mark> <mark style="background-color:yellow;"></mark><mark style="background-color:yellow;">= binary tree of hashes, where each internal node is the hash of its two children, and each leaf node is a hash of a portion of the original data</mark>
+We can use <mark style="background-color:yellow;">**merkle trees**</mark> <mark style="background-color:yellow;"></mark><mark style="background-color:yellow;">= binary tree of hashes, where each internal node is the hash of its two children, and each leaf node is a hash of a portion of the original data</mark>
 
 We can use merkle trees by:
 

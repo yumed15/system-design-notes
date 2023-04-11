@@ -11,6 +11,5 @@ If an operation is too slow to perform inline, you can use a message queue with 
 
 e.g. RabbitMQ, Amazon SQS
 
-__
 
-__
+

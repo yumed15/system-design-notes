@@ -21,7 +21,7 @@
 data is modified in the database and becomes inconsistent with the cache
 
 * **Write-aside cache** — data is written into the cache and the corresponding database at the same time (also known as _lazy loading_) — cons: higher latency
-* **Write-through cache ** — application adds or updates an entry in the cache. Cache synchronously writes entry to the data store. Cache returns the data to the application.
+* **Write-through cache** — application adds or updates an entry in the cache. Cache synchronously writes entry to the data store. Cache returns the data to the application.
 * **Write-around cache** — data is written directly to permanent storage, bypassing the cache — cons: read request for recently written data will create a “cache miss”.
 * **Write-back cache** — data is written to cache alone and completion is immediately confirmed to the client and then data is _asynchronously_ updated to the data store — pros: low latency and high throughput; cons: risk of data loss in case of a crash
 

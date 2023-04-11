@@ -122,7 +122,7 @@ The purpose of the model-driven design patterns is to present some of the key el
 
 ### The Published Language Model Pattern
 
-__
+
 
 _(TO DO...)_
 
