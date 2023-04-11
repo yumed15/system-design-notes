@@ -15,12 +15,13 @@
 
 ## NoSQL Types <a href="#79d1" id="79d1"></a>
 
-| Type      | Description                                                                                                                                                                                                                                                                                                                                                                                                               |
-| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Key-Value | Uses a map where each key is associated with one and only one value in a collection. Each key is represented as an arbitrary string (hash value). The value is stored in BLOB. Doesn’t have a query language. They only allow to store, retrieve and update the data using get/put/delete commands e.g. DynamoDB (Nike), Cassandra, Redis, Memcache, Manhattan (Twitter), Sherpa (Yahoo) For: session, shopping cart info |
-| Document  | Stores data on the basis of key/value which is similar to a key-value db. The only difference is that it stores the values in the form of XML, JSON, BSON. Allows storage for complex data - trees, collections, dictionaries. Doesn’t support relations. Each doc is a standalone. Doesn’t support joins. e.g. MongoDb (eBay), CouchDB (LinkedIn)                                                                        |
-| Column    | Stores data in column families as rows. Each column family can be compared to a container of rows where the key identifies the row & the row consists of multiple columns. Rows don’t need to have the same columns and columns can be added to any row e.g. Cassandra (Instagram, Walmart), HBase (Salesforce, FB Messages, Imgur notifications)                                                                         |
-| Graph     | Stores data in the form of nodes and edges where nodes = entities and edges = relationships. Stores data only once & a no. of different types of relationships can be stored in these nodes. Relationships can be uni and bi direcational (as in RDBMS). Adding new relationships is easy but changing existing ones is difficult.. e.g. Neo4J, OrientDB, InfiniteGraph, FlockDB (Twitter), TAO (FB Social Graph)         |
+| Type      | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Key-Value | Uses a map where each key is associated with one and only one value in a collection. Each key is represented as an arbitrary string (hash value). The value is stored in BLOB. Doesn’t have a query language. They only allow to store, retrieve and update the data using get/put/delete commands e.g. DynamoDB (Nike), Cassandra, Redis, Memcache, Manhattan (Twitter), Sherpa (Yahoo) For: session, shopping cart info                                                                                                                                                                                                                                                                    |
+| Document  | Stores data on the basis of key/value which is similar to a key-value db. The only difference is that it stores the values in the form of XML, JSON, BSON. Allows storage for complex data - trees, collections, dictionaries. Doesn’t support relations. Each doc is a standalone. Doesn’t support joins. e.g. MongoDb (eBay), CouchDB (LinkedIn)                                                                                                                                                                                                                                                                                                                                           |
+| Column    | Stores data in column families as rows. Each column family can be compared to a container of rows where the key identifies the row & the row consists of multiple columns. Rows don’t need to have the same columns and columns can be added to any row e.g. Cassandra (Instagram, Walmart), HBase (Salesforce, FB Messages, Imgur notifications)                                                                                                                                                                                                                                                                                                                                            |
+| Graph     | Stores data in the form of nodes and edges where nodes = entities and edges = relationships. Stores data only once & a no. of different types of relationships can be stored in these nodes. Relationships can be uni and bi direcational (as in RDBMS). Adding new relationships is easy but changing existing ones is difficult.. e.g. Neo4J, OrientDB, InfiniteGraph, FlockDB (Twitter), TAO (FB Social Graph)                                                                                                                                                                                                                                                                            |
+| Vector    | <p>stores data as high-dimensional vectors, which are mathematical representations of features or attributes. Each vector has a certain number of dimensions, which can range from tens to thousands, depending on the complexity and granularity of the data. The vectors are usually generated by applying some kind of transformation or embedding function to the raw data, such as text, images, audio, video, and others.<br><br>pros: fast and accurate similarity search and retrieval of data based on their vector distance or similarity.<br><br><a href="https://weaviate.io/">https://weaviate.io/</a> <br><a href="https://www.pinecone.io/">https://www.pinecone.io/</a> </p> |
 
 
 
@@ -30,22 +31,22 @@
 * **Vertical Partitioning** divide our data to store tables related to a specific feature in their own server (instagram use case — user profile information stored on one DB server, friend lists on another) — **cons**: if our application experiences additional growth, then it may be necessary to further partition a feature specific DB across various servers
 * **Directory Based Partitioning** — create a lookup service which knows your current partitioning scheme and abstracts it away from the DB access code.
 
-****
+
 
 **Partitioning Methods:**
 
 _= process of splitting up a DB/table across multiple machines to improve the manageability, performance, availability, and load balancing of an application_
 
-****
+
 
 **Partitioning Criteria:**
 
 * **Key or Hash-based partitioning** — apply a hash function to some key attributes of the entity we are storing — **cons**: adding new servers means changing the hash function which would require redistribution of data and downtime for the service. (use Consistent Hashing)
 * **List partitioning** — each partition is assigned a list of values, so whenever we want to insert a new record, we will see which partition contains our key and then store it there
-* **Round-robin partitioning**  — With ’n’ partitions, the ‘i’ tuple is assigned to partition (i mod n).
+* **Round-robin partitioning** — With ’n’ partitions, the ‘i’ tuple is assigned to partition (i mod n).
 * **Composite partitioning** — combine any of the above partitioning schemes to devise a new scheme
 
-****
+
 
 **Complexities:**
 
@@ -57,7 +58,7 @@ _= process of splitting up a DB/table across multiple machines to improve the ma
 
 **Rebalancing/Resharding** — data distribution is not uniform and there is a lot of load on a shard => have to create more DB shards or have to rebalance existing shards.
 
-****
+
 
 **Strategies**:
 
@@ -69,8 +70,8 @@ _= process of splitting up a DB/table across multiple machines to improve the ma
 
 Examples of Real World Scenarios:
 
-* [_**Read about Tinder’s Geosharded Recommendations Part 1: Sharding Approach**_](https://medium.com/tinder-engineering/geosharded-recommendations-part-1-sharding-approach-d5d54e0ec77a) _**** —_ Based on Google’s S2 which uses the **Hilbert curve** (_=a space-filling curve that preserves spatial locality: two points that are close on the Hilbert curve are close in physical space. Each smallest Hilbert curve clone is a cell, and 4 adjacent cells form a bigger cell._) Create the geoshards by enumerating all the possible container sizes, and calculate the standard deviation of each sharding configuration, the one with smallest standard deviation will be the most balanced geo sharding configuration we are looking for.
-* [_**Read about Uber’s Unwinding Uber’s Most Efficient Service**_](https://medium.com/@buckhx/unwinding-uber-s-most-efficient-service-406413c5871d) _**** —_ using a QuadTree — Take a flat projection of your search space and divide it into quarters that we’ll call cells. You then divide each of those cells into quarters recursively until you hit a defined maximum depth which will be the leaves of the tree.
+* [_**Read about Tinder’s Geosharded Recommendations Part 1: Sharding Approach**_](https://medium.com/tinder-engineering/geosharded-recommendations-part-1-sharding-approach-d5d54e0ec77a) _—_ Based on Google’s S2 which uses the **Hilbert curve** (_=a space-filling curve that preserves spatial locality: two points that are close on the Hilbert curve are close in physical space. Each smallest Hilbert curve clone is a cell, and 4 adjacent cells form a bigger cell._) Create the geoshards by enumerating all the possible container sizes, and calculate the standard deviation of each sharding configuration, the one with smallest standard deviation will be the most balanced geo sharding configuration we are looking for.
+* [_**Read about Uber’s Unwinding Uber’s Most Efficient Service**_](https://medium.com/@buckhx/unwinding-uber-s-most-efficient-service-406413c5871d) _—_ using a QuadTree — Take a flat projection of your search space and divide it into quarters that we’ll call cells. You then divide each of those cells into quarters recursively until you hit a defined maximum depth which will be the leaves of the tree.
 * [_**Read about Instragram’s Sharding & IDs at Instagram**_](https://instagram-engineering.com/sharding-ids-at-instagram-1cf5a71e5a5c)\
 
 
