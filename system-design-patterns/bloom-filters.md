@@ -50,18 +50,13 @@ To choose the size of a bloom filter, we:
 
 If we are using a bloom filter with $$m$$ bits and $$k$$ hash function, insertion and search will both take $$O(k)$$ time. In both cases, we just need to run the input through all of the hash functions. Then we just check the output bits.
 
-| Operation | Complexity |
-| :-------: | :--------: |
-| insertion |    O(k)    |
-|   search  |    O(k)    |
+<table><thead><tr><th width="184" align="center">Operation</th><th width="215" align="center">Complexity</th></tr></thead><tbody><tr><td align="center">insertion</td><td align="center">O(k)</td></tr><tr><td align="center">search</td><td align="center">O(k)</td></tr></tbody></table>
 
 **Space**
 
 To truly understand the space complexity of the bloom filter, you have to first choose your parameters. You could make a bloom filter with $$k=1$$ and it would just be a [hash table](https://brilliant.org/wiki/hash-tables/) that ignores collisions. However, you would have a very large $$m$$ if you wanted to keep your false positive rate low. The space of the actual data structure (what holds the data) is simply $$O(m)$$.
 
-| Space | Complexity |
-| :---: | :--------: |
-| space |    O(m)    |
+<table><thead><tr><th width="175" align="center">Space</th><th width="184" align="center">Complexity</th></tr></thead><tbody><tr><td align="center">space</td><td align="center">O(m)</td></tr></tbody></table>
 
 ### Applications
 

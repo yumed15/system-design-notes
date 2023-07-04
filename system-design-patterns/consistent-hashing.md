@@ -24,12 +24,7 @@ With consistent hashing, the ring is divided into smaller, predefined ranges. <m
 
 The nodes from the above example would have the following tokens:
 
-|   Server  | Token | Range Start | Range End |
-| :-------: | :---: | :---------: | :-------: |
-| Server 1  |   1   |      1      |     25    |
-|  Server 2 |   26  |      26     |     50    |
-|  Server 3 |   51  |      51     |     75    |
-|  Server 4 |   76  |      76     |    100    |
+<table><thead><tr><th align="center">Server</th><th align="center">Token</th><th width="151" align="center">Range Start</th><th align="center">Range End</th></tr></thead><tbody><tr><td align="center">Server 1 </td><td align="center">1</td><td align="center">1</td><td align="center">25</td></tr><tr><td align="center">Server 2</td><td align="center">26</td><td align="center">26</td><td align="center">50</td></tr><tr><td align="center">Server 3</td><td align="center">51</td><td align="center">51</td><td align="center">75</td></tr><tr><td align="center">Server 4</td><td align="center">76</td><td align="center">76</td><td align="center">100</td></tr></tbody></table>
 
 ### Adding/Reading data
 
@@ -56,7 +51,7 @@ Instead of assigning a single token to a node, the hash range is divided into mu
 
 <figure><img src="../.gitbook/assets/Diana Playground (4).jpg" alt=""><figcaption><p>Comparing Consistent Hashing ring with and without Vnodes</p></figcaption></figure>
 
-Vnodes are <mark style="background-color:yellow;">**randomly distributed**</mark> <mark style="background-color:yellow;"></mark><mark style="background-color:yellow;"></mark> across the cluster and are generally <mark style="background-color:yellow;">**non-contiguous**</mark> so that no two neighboring Vnodes are assigned to the same physical node or rack.&#x20;
+Vnodes are <mark style="background-color:yellow;">**randomly distributed**</mark> across the cluster and are generally <mark style="background-color:yellow;">**non-contiguous**</mark> so that no two neighboring Vnodes are assigned to the same physical node or rack.&#x20;
 
 Advantages:
 

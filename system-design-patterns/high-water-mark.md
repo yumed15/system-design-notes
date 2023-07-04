@@ -14,7 +14,11 @@ To achieve strong consistency:
   * this new leader can be a bit behind the old leader, as there might be some transactions that have not been completely propagated before the old leader crashed.
   * we do have these transactions in the WAL on the old leader, but those log entries cannot be recovered until the old leader becomes alive again, so those transactions are considered lost.
 
+<div align="center">
+
 <figure><img src="../.gitbook/assets/Diana Playground (6).jpg" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 ### Solution
 
