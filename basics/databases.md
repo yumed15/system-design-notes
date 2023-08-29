@@ -43,8 +43,13 @@
 
 <mark style="background-color:yellow;">**Ledger**</mark>
 
+* immutable, and cryptographically verifiable transaction log ‎owned by a central trusted authority. Tracks each and every application data change and maintains a complete and verifiable history of changes over time.
 * TigerBettle, AWS QuantumLedger
 * Uses: Financial systems
+
+<figure><img src="../.gitbook/assets/Screenshot 2023-08-29 at 12.32.53.png" alt="" width="563"><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/Screenshot 2023-08-29 at 12.34.30.png" alt="" width="563"><figcaption></figcaption></figure>
 
 <mark style="background-color:yellow;">**Vector**</mark>
 
