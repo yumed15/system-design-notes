@@ -7,7 +7,7 @@
 * faster, uninterrupted service, less downtime and higher throughput
 * predictive analytics that predict traffic bottlenecks (smart LB)
 * fewer failed or stressed components.
-* health checking - LBs use the [heartbeat protocol](../system-design-patterns/heartbeat.md) to monitor the health and, therefore, reliability of end-servers.
+* health checking - LBs use the [heartbeat protocol](../system-design-patterns/liveness/heartbeat.md) to monitor the health and, therefore, reliability of end-servers.
 * TLS termination: LBs reduce the burden on end-servers by handling TLS termination with the client.
 * Reduced human intervention: Because of LB automation, reduced system administration efforts are required in handling failures.
 * Service discovery: An advantage of LBs is that the clients’ requests are forwarded to appropriate hosting servers by inquiring about the service registry.

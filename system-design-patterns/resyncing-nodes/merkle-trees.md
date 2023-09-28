@@ -18,4 +18,4 @@ We can use merkle trees by:
 
 This way the amount of data exchanged is minimized. The principal advantage of a Merkle tree is that each branch of the tree can be checked independently without requiring nodes to download the entire tree or the entire data set.
 
-<figure><img src="../.gitbook/assets/Diana Playground (13).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Diana Playground (13).jpg" alt=""><figcaption></figcaption></figure>

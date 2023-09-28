@@ -16,7 +16,7 @@ Repairing stale data for nodes that were down and now are back online.
 * The system returns the latest data to the client and initiates a **Read Repair** request.
 * The read repair operation pushes the latest version of data to nodes with the older version.
 
-<figure><img src="../.gitbook/assets/Diana Playground (12).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Diana Playground (12).jpg" alt=""><figcaption></figcaption></figure>
 
 ### Applications
 
