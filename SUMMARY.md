@@ -7,6 +7,7 @@
 * [Key Characteristics of Distributed Systems](basics/key-characteristics-of-distributed-systems.md)
 * [DNS](basics/dns.md)
 * [Load Balancer](basics/load-balancer.md)
+* [API Gateway](basics/api-gateway.md)
 * [Caching](basics/caching.md)
 * [Message Queues](basics/message-queues.md)
 * [Proxies](basics/proxies.md)
