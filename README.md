@@ -35,10 +35,10 @@
 
 #### Distributed Data Transactions
 
-| Problem                            | Solution                                                     |
-| ---------------------------------- | ------------------------------------------------------------ |
-| Commit or rollback transaction     | [CQRS](distributed-data-design-patterns/two-phase-commit.md) |
-| Retrieve data from multiple places | [Two Phase Commit](distributed-data-design-patterns/cqrs.md) |
+| Problem                            | Solution                                         |
+| ---------------------------------- | ------------------------------------------------ |
+| Commit or rollback transaction     | [CQRS](data-synchronisation/two-phase-commit.md) |
+| Retrieve data from multiple places | [Two Phase Commit](data-synchronisation/cqrs.md) |
 
 #### Splitting the monolith
 

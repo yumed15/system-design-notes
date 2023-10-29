@@ -16,18 +16,6 @@
 * [CAP Theorem](basics/cap-theorem.md)
 * [PACEL Theorem](basics/pacel-theorem.md)
 
-## SYSTEM DESIGN EXAMPLES
-
-* [Design a Distributed Message Queue & Event Streaming Platform](system-design-examples/untitled.md)
-
-## Monolith Decomposition Patterns
-
-* [Monolith vs Microservices](monolith-decomposition-patterns/monolith-vs-microservices.md)
-* [Motivation](monolith-decomposition-patterns/motivation.md)
-* [The Strangler Fig Migration Pattern](monolith-decomposition-patterns/the-strangler-fig-migration-pattern.md)
-* [Domain-Driven Design](monolith-decomposition-patterns/domain-driven-design.md)
-* [Other Approaches](monolith-decomposition-patterns/other-approaches.md)
-
 ## System Design patterns
 
 * [Bloom filters](system-design-patterns/bloom-filters.md)
@@ -51,13 +39,26 @@
   * [Merkle trees](system-design-patterns/resyncing-nodes/merkle-trees.md)
   * [Hinted Handoff](system-design-patterns/resyncing-nodes/hinted-handoff.md)
 
-## DISTRIBUTED DATA DESIGN PATTERNS
+## DATA SYNCHRONISATION
 
-* [Two-phase commit (2pc) Pattern](distributed-data-design-patterns/cqrs.md)
-* [CQRS](distributed-data-design-patterns/two-phase-commit.md)
-* [Saga](distributed-data-design-patterns/saga.md)
-* [Transactional outbox](distributed-data-design-patterns/transactional-outbox.md)
-* [Transaction log tailing](distributed-data-design-patterns/transaction-log-tailing.md)
+* [Two-phase commit (2pc) Pattern](data-synchronisation/cqrs.md)
+* [CQRS](data-synchronisation/two-phase-commit.md)
+* [Saga](data-synchronisation/saga.md)
+* [Transactional outbox](data-synchronisation/transactional-outbox.md)
+* [Transaction log tailing](data-synchronisation/transaction-log-tailing.md)
+* [Change Data Capture (CDC)](data-synchronisation/change-data-capture-cdc.md)
+
+## Monolith Decomposition Patterns
+
+* [Monolith vs Microservices](monolith-decomposition-patterns/monolith-vs-microservices.md)
+* [Motivation](monolith-decomposition-patterns/motivation.md)
+* [The Strangler Fig Migration Pattern](monolith-decomposition-patterns/the-strangler-fig-migration-pattern.md)
+* [Domain-Driven Design](monolith-decomposition-patterns/domain-driven-design.md)
+* [Other Approaches](monolith-decomposition-patterns/other-approaches.md)
+
+## SYSTEM DESIGN EXAMPLES
+
+* [Design a Distributed Message Queue & Event Streaming Platform](system-design-examples/untitled.md)
 
 ## 💰 Payments Services
 
