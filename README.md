@@ -1,10 +1,5 @@
 ---
-cover: .gitbook/assets/photo-1499965172422-7e1d2ef68d9c.avif
-coverY: 55.98933333333333
 layout:
-  cover:
-    visible: true
-    size: hero
   title:
     visible: true
   description:
@@ -21,7 +16,7 @@ layout:
 
 Buckle up, intrepid coder! The Art of Scalable Systems is your passport to unraveling the mysteries of services. Explore the hilarious mishaps and ingenious solutions to everyday problems.
 
-📚 NB: This is an attempt at documenting all my system design notes from reading and on hands experience, starting with explaining the basic components of a service to providing examples of real world systems and discussing tradeoffs of possible solutions.
+📚 NB: This is an attempt at documenting all my system design notes from reading and hands-on experience, starting with explaining the basic components of a service to providing examples of real world systems and discussing tradeoffs of possible solutions.
 
 ## Table of contents
 
