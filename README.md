@@ -1,4 +1,23 @@
-# Welcome
+---
+cover: .gitbook/assets/photo-1499965172422-7e1d2ef68d9c.avif
+coverY: 55.98933333333333
+layout:
+  cover:
+    visible: true
+    size: hero
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
+# System Design
 
 📚 This is an attempt at documenting all my system design notes from reading and on hands experience, starting with explaining the basic components of a service to providing examples of real world problems and how they're currently implemented.
 
