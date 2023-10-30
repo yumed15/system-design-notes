@@ -45,7 +45,6 @@
 * [CQRS](data-synchronisation/two-phase-commit.md)
 * [Saga](data-synchronisation/saga.md)
 * [Transactional outbox](data-synchronisation/transactional-outbox.md)
-* [Transaction log tailing](data-synchronisation/transaction-log-tailing.md)
 * [Change Data Capture (CDC)](data-synchronisation/change-data-capture-cdc.md)
 
 ## Monolith Decomposition Patterns

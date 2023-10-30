@@ -35,10 +35,12 @@
 
 #### Distributed Data Transactions
 
-| Problem                            | Solution                                         |
-| ---------------------------------- | ------------------------------------------------ |
-| Commit or rollback transaction     | [CQRS](data-synchronisation/two-phase-commit.md) |
-| Retrieve data from multiple places | [Two Phase Commit](data-synchronisation/cqrs.md) |
+| Chapters                                                                     |
+| ---------------------------------------------------------------------------- |
+| [CQRS](data-synchronisation/two-phase-commit.md)                             |
+| [Two Phase Commit](data-synchronisation/cqrs.md)                             |
+| [Transactional Outbox](data-synchronisation/transactional-outbox.md)         |
+| [Change Data Capture (CDC)](data-synchronisation/change-data-capture-cdc.md) |
 
 #### Splitting the monolith
 

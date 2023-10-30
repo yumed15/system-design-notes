@@ -1,3 +1,0 @@
-# Transaction log tailing
-
-TBA
