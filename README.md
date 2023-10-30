@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # The Art of Scalable Systems: Designing for Success
 
 Buckle up, intrepid coder! The Art of Scalable Systems is your passport to unraveling the mysteries of services. Explore the hilarious mishaps and ingenious solutions to everyday problems.
