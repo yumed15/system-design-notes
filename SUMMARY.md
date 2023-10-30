@@ -57,6 +57,7 @@
 
 ## REAL WORLD SCENARIOS
 
+* [System Design Interview Template](real-world-scenarios/system-design-interview-template.md)
 * [Design a Distributed Message Queue & Event Streaming Platform](real-world-scenarios/untitled.md)
 
 ## 💰 Payments Services
