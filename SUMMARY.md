@@ -39,13 +39,13 @@
   * [Merkle trees](system-design-patterns/resyncing-nodes/merkle-trees.md)
   * [Hinted Handoff](system-design-patterns/resyncing-nodes/hinted-handoff.md)
 
-## DATA SYNCHRONISATION
+## DATA SYNCHRONISATION PATTERNS
 
-* [Two-phase commit (2pc) Pattern](data-synchronisation/cqrs.md)
-* [CQRS](data-synchronisation/two-phase-commit.md)
-* [Saga](data-synchronisation/saga.md)
-* [Transactional outbox](data-synchronisation/transactional-outbox.md)
-* [Change Data Capture (CDC)](data-synchronisation/change-data-capture-cdc.md)
+* [Two-phase commit (2pc) Pattern](data-synchronisation-patterns/cqrs.md)
+* [CQRS](data-synchronisation-patterns/two-phase-commit.md)
+* [Saga](data-synchronisation-patterns/saga.md)
+* [Transactional outbox](data-synchronisation-patterns/transactional-outbox.md)
+* [Change Data Capture (CDC)](data-synchronisation-patterns/change-data-capture-cdc.md)
 
 ## Monolith Decomposition Patterns
 

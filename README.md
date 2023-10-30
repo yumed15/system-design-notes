@@ -33,14 +33,14 @@
 | Update stale nodes                 | <p><a href="system-design-patterns/resyncing-nodes/read-repair.md">Read Repair</a><br><a href="system-design-patterns/resyncing-nodes/merkle-trees.md">Merkle Trees</a></p>                                                                                                     |
 | Check data inconsistency           | [Checksum](system-design-patterns/checksum.md)                                                                                                                                                                                                                                  |
 
-#### Distributed Data Transactions
+#### Data Synchronisation Transactions
 
-| Chapters                                                                     |
-| ---------------------------------------------------------------------------- |
-| [CQRS](data-synchronisation/two-phase-commit.md)                             |
-| [Two Phase Commit](data-synchronisation/cqrs.md)                             |
-| [Transactional Outbox](data-synchronisation/transactional-outbox.md)         |
-| [Change Data Capture (CDC)](data-synchronisation/change-data-capture-cdc.md) |
+| Chapters                                                                              |
+| ------------------------------------------------------------------------------------- |
+| [CQRS](data-synchronisation-patterns/two-phase-commit.md)                             |
+| [Two Phase Commit](data-synchronisation-patterns/cqrs.md)                             |
+| [Transactional Outbox](data-synchronisation-patterns/transactional-outbox.md)         |
+| [Change Data Capture (CDC)](data-synchronisation-patterns/change-data-capture-cdc.md) |
 
 #### Splitting the monolith
 
