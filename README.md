@@ -8,15 +8,15 @@ Buckle up, intrepid coder! The Art of Scalable Systems is your passport to unrav
 
 #### Basic Concepts
 
-| System components                                                                         | System concepts                          |
-| ----------------------------------------------------------------------------------------- | ---------------------------------------- |
-| [Load Balancer](basics/load-balancer.md)                                                  | [ACID](basics/acid.md)                   |
-| [Caching](basics/caching.md)                                                              | [Cap Theorem](basics/cap-theorem.md)     |
-| [Message Queues](basics/message-queues.md)                                                | [Pacel Theorem](basics/pacel-theorem.md) |
-| [Proxies](basics/proxies.md)                                                              |                                          |
-| [Databases](basics/databases.md)                                                          |                                          |
-| [DNS](basics/dns.md)                                                                      |                                          |
-| [Monolith vs Microservices](monolith-decomposition-patterns/monolith-vs-microservices.md) |                                          |
+| System components                          | System concepts                          |
+| ------------------------------------------ | ---------------------------------------- |
+| [Load Balancer](basics/load-balancer.md)   | [ACID](basics/acid.md)                   |
+| [API Gateway](basics/api-gateway.md)       | [CAP Theorem](basics/cap-theorem.md)     |
+| [Caching](basics/caching.md)               | [PACEL Theorem](basics/pacel-theorem.md) |
+| [DNS](basics/dns.md)                       |                                          |
+| [Message Queues](basics/message-queues.md) |                                          |
+| [Proxies](basics/proxies.md)               |                                          |
+| [Databases](basics/databases.md)           |                                          |
 
 #### Design Patterns
 
@@ -35,7 +35,7 @@ Buckle up, intrepid coder! The Art of Scalable Systems is your passport to unrav
 | Update stale nodes                 | <p><a href="system-design-patterns/resyncing-nodes/read-repair.md">Read Repair</a><br><a href="system-design-patterns/resyncing-nodes/merkle-trees.md">Merkle Trees</a></p>                                                                                                     |
 | Check data inconsistency           | [Checksum](system-design-patterns/checksum.md)                                                                                                                                                                                                                                  |
 
-#### Data Synchronisation Transactions
+#### Data Synchronisation Patterns
 
 | Chapters                                                                              |
 | ------------------------------------------------------------------------------------- |
@@ -44,18 +44,18 @@ Buckle up, intrepid coder! The Art of Scalable Systems is your passport to unrav
 | [Transactional Outbox](data-synchronisation-patterns/transactional-outbox.md)         |
 | [Change Data Capture (CDC)](data-synchronisation-patterns/change-data-capture-cdc.md) |
 
-#### Splitting the monolith
+#### Monolith Decomposition Patterns
 
 | Chapters                                                                                                      |
 | ------------------------------------------------------------------------------------------------------------- |
 | [Domain Driven Design](monolith-decomposition-patterns/domain-driven-design.md)                               |
 | [The Strangler Fig Migration Pattern](monolith-decomposition-patterns/the-strangler-fig-migration-pattern.md) |
 
-#### Use cases
+#### Real World Scenarios
 
-| Chapters                                                                                   |
-| ------------------------------------------------------------------------------------------ |
-| [Distributed Message Queue & Event Streaming Platform](system-design-examples/untitled.md) |
+| Chapters                                                                                 |
+| ---------------------------------------------------------------------------------------- |
+| [Distributed Message Queue & Event Streaming Platform](real-world-scenarios/untitled.md) |
 
 **Infrastructure Bits and Bobs**
 

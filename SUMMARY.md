@@ -55,9 +55,9 @@
 * [Domain-Driven Design](monolith-decomposition-patterns/domain-driven-design.md)
 * [Other Approaches](monolith-decomposition-patterns/other-approaches.md)
 
-## SYSTEM DESIGN EXAMPLES
+## REAL WORLD SCENARIOS
 
-* [Design a Distributed Message Queue & Event Streaming Platform](system-design-examples/untitled.md)
+* [Design a Distributed Message Queue & Event Streaming Platform](real-world-scenarios/untitled.md)
 
 ## 💰 Payments Services
 
