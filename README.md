@@ -17,9 +17,11 @@ layout:
     visible: true
 ---
 
-# System Design
+# The Art of Scalable Systems: Designing for Success
 
-📚 This is an attempt at documenting all my system design notes from reading and on hands experience, starting with explaining the basic components of a service to providing examples of real world problems and how they're currently implemented.
+Buckle up, intrepid coder! The Art of Scalable Systems is your passport to unraveling the mysteries of services. Explore the hilarious mishaps and ingenious solutions to everyday problems.
+
+📚 NB: This is an attempt at documenting all my system design notes from reading and on hands experience, starting with explaining the basic components of a service to providing examples of real world systems and discussing tradeoffs of possible solutions.
 
 ## Table of contents
 

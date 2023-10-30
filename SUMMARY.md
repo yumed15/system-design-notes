@@ -1,6 +1,6 @@
 # Table of contents
 
-* [System Design](README.md)
+* [The Art of Scalable Systems: Designing for Success](README.md)
 
 ## BASICS
 
